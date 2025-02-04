@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTenantWorker", "MultiTenantWorker\MultiTenantWorker.csproj", "{EAEBB8CD-4049-AE3D-1B9D-72466DAEBD97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseContext", "DatabaseContext\DatabaseContext.csproj", "{7AC61CF6-9511-4E44-A8A8-8E472AE7B271}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAEBB8CD-4049-AE3D-1B9D-72466DAEBD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEBB8CD-4049-AE3D-1B9D-72466DAEBD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEBB8CD-4049-AE3D-1B9D-72466DAEBD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEBB8CD-4049-AE3D-1B9D-72466DAEBD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC61CF6-9511-4E44-A8A8-8E472AE7B271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC61CF6-9511-4E44-A8A8-8E472AE7B271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC61CF6-9511-4E44-A8A8-8E472AE7B271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC61CF6-9511-4E44-A8A8-8E472AE7B271}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CD76907-F07A-4483-B096-1F59B05409DD}
+	EndGlobalSection
+EndGlobal
